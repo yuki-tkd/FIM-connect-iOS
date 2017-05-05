@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6FCA65C1EBC21A900FB15AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCA65B1EBC21A900FB15AC /* AppDelegate.swift */; };
+		B6FCA65E1EBC21AA00FB15AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCA65D1EBC21AA00FB15AC /* ViewController.swift */; };
+		B6FCA6611EBC21AA00FB15AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FCA65F1EBC21AA00FB15AC /* Main.storyboard */; };
+		B6FCA6631EBC21AA00FB15AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FCA6621EBC21AA00FB15AC /* Assets.xcassets */; };
+		B6FCA6661EBC21AA00FB15AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FCA6641EBC21AA00FB15AC /* LaunchScreen.storyboard */; };
+		B6FCA6711EBC21AA00FB15AC /* FIM_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCA6701EBC21AA00FB15AC /* FIM_ConnectTests.swift */; };
+		B6FCA67C1EBC21AA00FB15AC /* FIM_ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCA67B1EBC21AA00FB15AC /* FIM_ConnectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6FCA66D1EBC21AA00FB15AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6FCA6501EBC21A900FB15AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6FCA6571EBC21A900FB15AC;
+			remoteInfo = "FIM Connect";
+		};
+		B6FCA6781EBC21AA00FB15AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6FCA6501EBC21A900FB15AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6FCA6571EBC21A900FB15AC;
+			remoteInfo = "FIM Connect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6FCA6581EBC21A900FB15AC /* FIM Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIM Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FCA65B1EBC21A900FB15AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6FCA65D1EBC21AA00FB15AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6FCA6601EBC21AA00FB15AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6FCA6621EBC21AA00FB15AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6FCA6651EBC21AA00FB15AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6FCA6671EBC21AA00FB15AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FCA66C1EBC21AA00FB15AC /* FIM ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIM ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FCA6701EBC21AA00FB15AC /* FIM_ConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIM_ConnectTests.swift; sourceTree = "<group>"; };
+		B6FCA6721EBC21AA00FB15AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FCA6771EBC21AA00FB15AC /* FIM ConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIM ConnectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FCA67B1EBC21AA00FB15AC /* FIM_ConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIM_ConnectUITests.swift; sourceTree = "<group>"; };
+		B6FCA67D1EBC21AA00FB15AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6FCA6551EBC21A900FB15AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FCA6691EBC21AA00FB15AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FCA6741EBC21AA00FB15AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6FCA64F1EBC21A900FB15AC = {
+			isa = PBXGroup;
+			children = (
+				B6FCA65A1EBC21A900FB15AC /* FIM Connect */,
+				B6FCA66F1EBC21AA00FB15AC /* FIM ConnectTests */,
+				B6FCA67A1EBC21AA00FB15AC /* FIM ConnectUITests */,
+				B6FCA6591EBC21A900FB15AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6FCA6591EBC21A900FB15AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6FCA6581EBC21A900FB15AC /* FIM Connect.app */,
+				B6FCA66C1EBC21AA00FB15AC /* FIM ConnectTests.xctest */,
+				B6FCA6771EBC21AA00FB15AC /* FIM ConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6FCA65A1EBC21A900FB15AC /* FIM Connect */ = {
+			isa = PBXGroup;
+			children = (
+				B6FCA65B1EBC21A900FB15AC /* AppDelegate.swift */,
+				B6FCA65D1EBC21AA00FB15AC /* ViewController.swift */,
+				B6FCA65F1EBC21AA00FB15AC /* Main.storyboard */,
+				B6FCA6621EBC21AA00FB15AC /* Assets.xcassets */,
+				B6FCA6641EBC21AA00FB15AC /* LaunchScreen.storyboard */,
+				B6FCA6671EBC21AA00FB15AC /* Info.plist */,
+			);
+			path = "FIM Connect";
+			sourceTree = "<group>";
+		};
+		B6FCA66F1EBC21AA00FB15AC /* FIM ConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6FCA6701EBC21AA00FB15AC /* FIM_ConnectTests.swift */,
+				B6FCA6721EBC21AA00FB15AC /* Info.plist */,
+			);
+			path = "FIM ConnectTests";
+			sourceTree = "<group>";
+		};
+		B6FCA67A1EBC21AA00FB15AC /* FIM ConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6FCA67B1EBC21AA00FB15AC /* FIM_ConnectUITests.swift */,
+				B6FCA67D1EBC21AA00FB15AC /* Info.plist */,
+			);
+			path = "FIM ConnectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6FCA6571EBC21A900FB15AC /* FIM Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FCA6801EBC21AA00FB15AC /* Build configuration list for PBXNativeTarget "FIM Connect" */;
+			buildPhases = (
+				B6FCA6541EBC21A900FB15AC /* Sources */,
+				B6FCA6551EBC21A900FB15AC /* Frameworks */,
+				B6FCA6561EBC21A900FB15AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FIM Connect";
+			productName = "FIM Connect";
+			productReference = B6FCA6581EBC21A900FB15AC /* FIM Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6FCA66B1EBC21AA00FB15AC /* FIM ConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FCA6831EBC21AA00FB15AC /* Build configuration list for PBXNativeTarget "FIM ConnectTests" */;
+			buildPhases = (
+				B6FCA6681EBC21AA00FB15AC /* Sources */,
+				B6FCA6691EBC21AA00FB15AC /* Frameworks */,
+				B6FCA66A1EBC21AA00FB15AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6FCA66E1EBC21AA00FB15AC /* PBXTargetDependency */,
+			);
+			name = "FIM ConnectTests";
+			productName = "FIM ConnectTests";
+			productReference = B6FCA66C1EBC21AA00FB15AC /* FIM ConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6FCA6761EBC21AA00FB15AC /* FIM ConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FCA6861EBC21AA00FB15AC /* Build configuration list for PBXNativeTarget "FIM ConnectUITests" */;
+			buildPhases = (
+				B6FCA6731EBC21AA00FB15AC /* Sources */,
+				B6FCA6741EBC21AA00FB15AC /* Frameworks */,
+				B6FCA6751EBC21AA00FB15AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6FCA6791EBC21AA00FB15AC /* PBXTargetDependency */,
+			);
+			name = "FIM ConnectUITests";
+			productName = "FIM ConnectUITests";
+			productReference = B6FCA6771EBC21AA00FB15AC /* FIM ConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6FCA6501EBC21A900FB15AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yuki Takeda";
+				TargetAttributes = {
+					B6FCA6571EBC21A900FB15AC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					B6FCA66B1EBC21AA00FB15AC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6FCA6571EBC21A900FB15AC;
+					};
+					B6FCA6761EBC21AA00FB15AC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6FCA6571EBC21A900FB15AC;
+					};
+				};
+			};
+			buildConfigurationList = B6FCA6531EBC21A900FB15AC /* Build configuration list for PBXProject "FIM Connect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6FCA64F1EBC21A900FB15AC;
+			productRefGroup = B6FCA6591EBC21A900FB15AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6FCA6571EBC21A900FB15AC /* FIM Connect */,
+				B6FCA66B1EBC21AA00FB15AC /* FIM ConnectTests */,
+				B6FCA6761EBC21AA00FB15AC /* FIM ConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6FCA6561EBC21A900FB15AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FCA6661EBC21AA00FB15AC /* LaunchScreen.storyboard in Resources */,
+				B6FCA6631EBC21AA00FB15AC /* Assets.xcassets in Resources */,
+				B6FCA6611EBC21AA00FB15AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FCA66A1EBC21AA00FB15AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FCA6751EBC21AA00FB15AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6FCA6541EBC21A900FB15AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FCA65E1EBC21AA00FB15AC /* ViewController.swift in Sources */,
+				B6FCA65C1EBC21A900FB15AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FCA6681EBC21AA00FB15AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FCA6711EBC21AA00FB15AC /* FIM_ConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FCA6731EBC21AA00FB15AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FCA67C1EBC21AA00FB15AC /* FIM_ConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6FCA66E1EBC21AA00FB15AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6FCA6571EBC21A900FB15AC /* FIM Connect */;
+			targetProxy = B6FCA66D1EBC21AA00FB15AC /* PBXContainerItemProxy */;
+		};
+		B6FCA6791EBC21AA00FB15AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6FCA6571EBC21A900FB15AC /* FIM Connect */;
+			targetProxy = B6FCA6781EBC21AA00FB15AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6FCA65F1EBC21AA00FB15AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FCA6601EBC21AA00FB15AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6FCA6641EBC21AA00FB15AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FCA6651EBC21AA00FB15AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6FCA67E1EBC21AA00FB15AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6FCA67F1EBC21AA00FB15AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6FCA6811EBC21AA00FB15AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FIM Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imaginaryshort.com.FIM-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B6FCA6821EBC21AA00FB15AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FIM Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imaginaryshort.com.FIM-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B6FCA6841EBC21AA00FB15AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FIM ConnectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imaginaryshort.com.FIM-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIM Connect.app/FIM Connect";
+			};
+			name = Debug;
+		};
+		B6FCA6851EBC21AA00FB15AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FIM ConnectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imaginaryshort.com.FIM-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIM Connect.app/FIM Connect";
+			};
+			name = Release;
+		};
+		B6FCA6871EBC21AA00FB15AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "FIM ConnectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imaginaryshort.com.FIM-ConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FIM Connect";
+			};
+			name = Debug;
+		};
+		B6FCA6881EBC21AA00FB15AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "FIM ConnectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imaginaryshort.com.FIM-ConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FIM Connect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6FCA6531EBC21A900FB15AC /* Build configuration list for PBXProject "FIM Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FCA67E1EBC21AA00FB15AC /* Debug */,
+				B6FCA67F1EBC21AA00FB15AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FCA6801EBC21AA00FB15AC /* Build configuration list for PBXNativeTarget "FIM Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FCA6811EBC21AA00FB15AC /* Debug */,
+				B6FCA6821EBC21AA00FB15AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6FCA6831EBC21AA00FB15AC /* Build configuration list for PBXNativeTarget "FIM ConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FCA6841EBC21AA00FB15AC /* Debug */,
+				B6FCA6851EBC21AA00FB15AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6FCA6861EBC21AA00FB15AC /* Build configuration list for PBXNativeTarget "FIM ConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FCA6871EBC21AA00FB15AC /* Debug */,
+				B6FCA6881EBC21AA00FB15AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6FCA6501EBC21A900FB15AC /* Project object */;
+}
