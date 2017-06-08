@@ -60,7 +60,20 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate, WebSoc
    
     func websocketDidReceiveMessage(socket: WebSocket, text: String) {
         print("got some text: \(text)")
-        self.triggerNotification(title: text, body: text)
+        
+        let dataFromString = text.data(using: String.Encoding.utf8)
+        let json = JSON(data: dataFromString!)
+        
+        debugPrint(json[0]["status"])
+        
+        let status = json[0]["status"]
+        let roomNumber = json[0]["room_number"]
+        let name = json[0]["name"]
+        
+        self.triggerNotification(
+            title: "Room " + String(describing: roomNumber) + " Active",
+            body: "Room " + String(describing: roomNumber) + " " + String(describing: name) + " is moving"
+        )
     }
     
     func websocketDidReceiveData(socket: WebSocket, data: Data) {
@@ -90,7 +103,7 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate, WebSoc
     }
     
     func loadAddressURL() {
-        let url: String = "http://" + self.host
+        let url: String = "http://" + self.host + "/demo"
         let requestUrl = URL(string: url)
         let req = NSURLRequest(url: requestUrl!)
         webview.loadRequest(req as URLRequest)

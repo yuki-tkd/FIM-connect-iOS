@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FIM_Connect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FIM_Connect_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -28,36 +28,13 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="6sI-ct-vaj"/>
                                 </connections>
                             </webView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CV4-Nx-CoQ">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <items>
-                                    <barButtonItem title="back" id="ub3-Uh-kA8">
-                                        <connections>
-                                            <action selector="goBack" destination="8d6-m4-Qnp" id="oau-W4-mkd"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem title="forward" id="uB9-ck-cKL">
-                                        <connections>
-                                            <action selector="goForward" destination="8d6-m4-Qnp" id="9Kd-fA-Cck"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem title="rerload" id="Sxv-fN-ScL">
-                                        <connections>
-                                            <action selector="reload" destination="8d6-m4-Qnp" id="9zN-Tb-M90"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="8d6-m4-Qnp" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="GfH-Xx-EcV"/>
-                            <constraint firstAttribute="bottom" secondItem="CV4-Nx-CoQ" secondAttribute="bottom" id="TXq-sI-YYd"/>
                             <constraint firstItem="8d6-m4-Qnp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Wri-Ir-wxb"/>
-                            <constraint firstItem="CV4-Nx-CoQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZNL-vy-bWv"/>
                             <constraint firstItem="8d6-m4-Qnp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZhW-3g-3mP"/>
                             <constraint firstItem="8d6-m4-Qnp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="gzP-qn-fHY"/>
-                            <constraint firstItem="CV4-Nx-CoQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lLm-TF-87B"/>
                         </constraints>
                     </view>
                     <connections>
